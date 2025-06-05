@@ -11,8 +11,3 @@ This is a glowing, animated HTML & CSS visual experiment called **DM&E** — sho
 - 💡 Clean, dark background
 - 💾 No JavaScript — just pure HTML & CSS magic
 
-## 🚀 How to run it
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
