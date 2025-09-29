@@ -1,4 +1,4 @@
-# DM&E
+# MD-J1
 
 Welcome to my first ever GitHub project! 🎉
 
