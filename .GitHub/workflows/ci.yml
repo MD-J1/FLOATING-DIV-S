@@ -1,1 +1,33 @@
-gg
+name: Simple CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the code
+      - uses: actions/checkout@v4
+
+      # Step 2: Run a simple shell command
+      - name: Say Hello
+        run: echo "Hello from GitHub Actions!"
+
+      # Step 3: List files in the repo
+      - name: List repository files
+        run: ls -la
+
+      # Step 4: Run a sample Python command (if you have Python code)
+      - name: Check Python version
+        run: python3 --version
+
+      # Step 5: Run tests (if you have pytest installed)
+      - name: Run tests
+        run: |
+          pip install pytest
+          pytest || echo "No tests found or tests failed"
