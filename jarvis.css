@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'CoolFont';
+    src: url('custom.otf') format('opentype');
+}
+
+
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1 {
+    position: absolute;
+    font-family: CoolFont;
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff, 0 0 50px #ffffff;
+    font-size: 50px;
+    left: 45%;
+    top: 35%;
+    z-index: 1000;
+}
+
+.C1, .C2, .C3, .C4, .C5{
+    filter: blur(10px);
+}
+
+
+.C1 {
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    width: 40%;
+    height: 50%;
+    background-color: rgb(18, 36, 193);
+    box-shadow: 0 0 5px rgb(18, 36, 193), 0 0 25px rgb(18, 36, 193), 0 0 50px rgb(18, 36, 193), 0 0 100px rgb(18, 36, 193), 0 0 200px rgb(18, 36, 193);
+    border-radius: 30% 70% 20% 40%;
+    animation: alias1 30s ease infinite;
+
+}
+
+.C2 {
+    top: 1%;
+    position: absolute;
+    left: 50%;
+    width: 40%;
+    height: 50%;
+    background-color: #d20000;
+    box-shadow: 0 0 5px #d20000, 0 0 25px #d20000, 0 0 50px #d20000, 0 0 100px #d20000, 0 0 200px #d20000;
+    border-radius: 30% 70% 20% 40%;
+    animation: alias2 30s ease infinite;
+
+
+}
+
+.C3 {
+    top: 15%;
+    position: absolute;
+    left: 69%;
+    width: 40%;
+    height: 50%;
+    background-color: rgb(0, 255, 225, 0.819);
+    box-shadow: 0 0 5px rgb(0, 255, 225, 0.819), 0 0 25px rgb(0, 255, 225, 0.819), 0 0 50px rgb(0, 255, 225, 0.819), 0 0 100px rgb(0, 255, 225, 0.819), 0 0 200px rgb(0, 255, 225, 0.819);
+    border-radius: 30% 70% 20% 40%;
+    animation: alias3 30s linear infinite;
+
+}
+
+.C4{
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    width: 40%;
+    height: 50%;
+    background-color: rgb(225, 255, 0);
+    box-shadow: 0 0 5px rgb(225, 255, 0), 0 0 25px rgb(225, 255, 0), 0 0 50px rgb(225, 255, 0), 0 0 100px rgb(225, 255, 0), 0 0 200px rgb(225, 255, 0);
+    border-radius: 30% 70% 20% 40%;
+    animation: alias4 30s ease infinite;
+
+}
+
+.C5{
+    position: absolute;
+    left: 1%;
+    top: 100%;
+    width: 40%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 25px rgb(255, 255, 255), 0 0 50px rgb(255, 255, 255), 0 0 100px rgb(255, 255, 255), 0 0 200px rgb(255, 255, 255);
+    border-radius: 30% 70% 20% 40%;
+    animation: alias5 30s ease infinite;
+
+}
+
+@keyframes alias5 {
+    0% {
+        top: 78%;
+    }
+
+    100% {
+        top: 1%;
+    }
+
+}
+
+@keyframes alias1 {
+    0% {
+        left: 1%;
+    }
+
+    100% {
+        left: 78%;
+    }
+
+}
+
+
+@keyframes alias2 {
+    0% {
+        top: 1%
+    }
+
+    100% {
+        top: 78%;
+    }
+}
+
+
+@keyframes alias3 {
+    0% {
+        left: 78%;
+    }
+
+    100% {
+        left: 1%;
+    }
+
+}
+
+@keyframes alias4{
+    0% {
+        top: 1%;
+    }
+
+    100% {
+        top: 78%;
+    }
+
+}
